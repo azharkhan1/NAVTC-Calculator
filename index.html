@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main__body">
+        <div class="input__controls">
+        <input id="num1" type="number"><br>
+        <input id="num2" type="number"><br>
+        <div class="button__controls">
+        <select id="signs">
+            <option selected>
+                +
+            </option>
+            <option>
+                -
+            </option>
+            <option>
+                *
+            </option>
+            <option>
+                /
+            </option>
+        </select>
+        <button onclick="calculator()">Calculate</button>
+    </div>
+            <h2>Result : <span id="result"></span></h2>
+        </div>
+        </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
